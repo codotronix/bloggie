@@ -1,0 +1,48 @@
+.view-container {
+    padding: 15px;
+}
+
+.bloglet {
+    position: relative;
+}
+
+.bloglet .well {
+    padding-left: 50px;
+    min-height: 115px;
+}
+
+.bloglet .voter {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 50px;
+}
+
+.bloglet .voter .fa {
+    font-size: 50px;
+    color: #9799F3;
+    position: absolute;
+}
+
+.bloglet .voter .score {
+    font-size: 21px;
+    color: #FFF;
+    padding: 2px;
+    background: #05004E;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width:29px;
+    text-align: center;
+    display: inline-block;
+}
+
+.bloglet .voter .fa-caret-up {
+    top: 0px;
+}
+
+.bloglet .voter .fa-caret-down {
+    top: 61px;
+}
+
