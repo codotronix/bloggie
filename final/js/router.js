@@ -1,6 +1,5 @@
-var app = angular.module('blogie');
-
-app.config(['$routeProvider', function($routeProvider) {
+angular.module('bloggie')
+.config(['$routeProvider', function($routeProvider) {
     $routeProvider
     .when('/home', {
         templateUrl:'partials/home.html',
